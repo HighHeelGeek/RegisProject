@@ -1,0 +1,61 @@
+/* Add a background color to the top navigation */
+.nav {
+  background-color: #d2b4da;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  vertical-align: middle;
+  color: #660066;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 20;
+  line-height: 40px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #c4d3ca;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.nav a.active {
+  background-color: #1b3c09;
+  color: white;
+}
+
+body {
+	background-color: #faebd7;
+}
+
+h1, h2, h3 {
+	color: #660066;
+	background-color: #faebd7;
+	vertical-align: middle;
+	text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.box .center {
+  display: grid;
+  place-items: center;
+  grid-template-rows: [row1-start] 150px [row1-end row2-start];
+  grid-template-columns: auto 50px auto;
+
+}
+
+
+/* Footer design */
+h5 {
+	color: #660066;
+	background-color: #faebd7;
+	text-align: center;
+	vertical-align: middle;
+}
